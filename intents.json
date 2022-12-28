@@ -1,0 +1,409 @@
+{
+  "intents": [
+    {
+      "tag": "enrollment",
+      "patterns": [
+        "How do I enroll in classes?",
+        "I want to register for classes",
+        "Enrollment"
+      ],
+      "responses": [
+        "To enroll in classes at our university, you will need to log in to your student portal and follow the steps to select and register for your courses. If you have any trouble with the enrollment process, don't hesitate to contact our helpdesk for assistance.",
+        "You can also visit the registrar's office in person or schedule an appointment with an academic advisor for assistance with enrollment."
+      ]
+    },
+    {
+      "tag": "financial aid",
+      "patterns": ["Financial aid", "Scholarships", "Grants"],
+      "responses": [
+        "For information on financial aid, including scholarships and grants, you can visit the financial aid office on campus or go to the financial aid section of our university's website. You can also contact the financial aid office directly with any questions or concerns you may have.",
+        "It is recommended that you start the financial aid process as early as possible, as funding is often limited and awarded on a first-come, first-served basis."
+      ]
+    },
+    {
+      "tag": "academic advisors",
+      "patterns": [
+        "Academic advisors",
+        "Where can I find an academic advisor?",
+        "I need help with my schedule"
+      ],
+      "responses": [
+        "You can find information on academic advisors and how to schedule an appointment with them on the academic advising section of our university's website. You can also visit the academic advising office in person or contact them by phone for assistance.",
+        "Academic advisors are here to help you plan your course schedule, choose a major, and provide guidance on academic and career goals. Don't hesitate to reach out for help!"
+      ]
+    },
+    {
+      "tag": "tutoring",
+      "patterns": [
+        "Tutoring",
+        "Where can I get help with my class?",
+        "I need a tutor"
+      ],
+      "responses": [
+        "We offer tutoring services through our university's learning center. You can find information on the types of tutoring available and how to schedule a tutoring session on the learning center's website or by visiting the learning center in person.",
+        "Tutoring is available for a variety of subjects and is provided by trained peer tutors or professional tutors. Don't hesitate to reach out for help!"
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": ["Library", "Where is the library?", "I need a book"],
+      "responses": [
+        "Our university library is located in the center of campus. You can find information on the library's hours of operation, services, and resources on the library's website or by visiting the library in person.",
+        "The library has a wide range of materials available, including books, ebooks, journals, and online resources. You can also borrow laptops, study rooms, and other equipment from the library."
+      ]
+    },
+    {
+      "tag": "computer lab",
+      "patterns": [
+        "Computer lab",
+        "Where is the computer lab?",
+        "I need a computer"
+      ],
+      "responses": [
+        "There are several computer labs on campus that are available for student use. You can find the locations and hours of operation for the computer labs on the IT department's website or by contacting the IT department directly.",
+        "The computer labs have a variety of software and hardware available, including computers, printers, and scanners. You can also get help with technical issues at the computer labs."
+      ]
+    },
+    {
+      "tag": "university services",
+      "patterns": [
+        "University services",
+        "Where can I find information on campus services?",
+        "I need help"
+      ],
+      "responses": [
+        "You can find information on a wide range of campus services, including health and wellness, housing, dining, and more, on the student services section of our university's website. You can also visit the student services office in person or contact them by phone for assistance.",
+        "Don't hesitate to reach out for help with any issues or concerns you may have. We are here to support you!"
+      ]
+    },
+    {
+      "tag": "class schedule",
+      "patterns": [
+        "Class schedule",
+        "What classes do I have?",
+        "When are my classes?"
+      ],
+      "responses": [
+        "You can find your class schedule on your student portal. You can also view your schedule by logging in to your university's student information system or by contacting the registrar's office for assistance.",
+        "Your class schedule will include the days and times that your classes meet, as well as the location of each class. Don't hesitate to reach out for help if you have any questions about your schedule."
+      ]
+    },
+    {
+      "tag": "housing",
+      "patterns": ["Housing", "Where can I live?", "I need a dorm"],
+      "responses": [
+        "We offer a variety of housing options on campus, including residence halls and apartments. You can find more information on housing options, rates, and how to apply on the housing and residential life section of our university's website.",
+        "If you have any questions about housing or need help with the application process, don't hesitate to contact the housing and residential life office for assistance."
+      ]
+    },
+    {
+      "tag": "campus map",
+      "patterns": ["Campus map", "Where is [building/location]?", "I'm lost"],
+      "responses": [
+        "You can find a map of our campus on the university's website or by downloading the campus map app on your phone. The map will show the locations of buildings, parking lots, and other points of interest on campus.",
+        "If you are having trouble finding a specific location or have any other questions about navigating campus, don't hesitate to reach out for help."
+      ]
+    },
+    {
+      "tag": "student ID",
+      "patterns": [
+        "Student ID",
+        "Where can I get a student ID?",
+        "I lost my ID"
+      ],
+      "responses": [
+        "You can get a student ID card at the student ID office on campus. You will need to bring a government-issued photo ID and your university enrollment confirmation to obtain a student ID.",
+        "Your student ID card is used to access a variety of services on campus, including the library, computer labs, and campus events. If you lose your ID, you can get a replacement at the student ID office for a fee."
+      ]
+    },
+    {
+      "tag": "Help Desk hours",
+      "patterns": [
+        "Help Desk hours",
+        "When is the Help Desk open?",
+        "When can I get help?",
+        "What are your hours?"
+      ],
+      "responses": [
+        "The Help Desk is open Monday through Friday from 9:00 AM to 5:00 PM. You can also contact the Help Desk by phone or email for assistance outside of normal business hours.",
+        "If you have any questions about the Help Desk or need help with a technical issue, don't hesitate to reach out for assistance."
+      ]
+    },
+
+    {
+      "tag": "google",
+      "patterns": ["google", "search", "internet"],
+      "responses": ["Redirecting to Google..."]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day",
+        "Namaste",
+        "yo"
+      ],
+      "responses": [
+        "Hello",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Get lost",
+        "Till next time",
+        "bbye"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What you can do?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "What support is offered"
+      ],
+      "responses": [
+        "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: your query \n 4. I can get the present weather for any city. Use format weather: city name \n 5. I can get you the top 10 trending news in India. Use keywords 'Latest News' \n 6. I can get you the top 10 trending songs globally. Type 'songs' \n 7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n 8. I can get the present Covid stats for any country. Use 'covid 19: world' or 'covid 19: country name' \n For suggestions to help me improve, send an email to ted.thedlbot.suggestions@gmail.com . Thank you!! "
+      ]
+    },
+
+    {
+      "tag": "jokes",
+      "patterns": ["Tell me a joke", "Joke", "Make me laugh"],
+      "responses": [
+        "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+        "I ate a clock yesterday, it was very time-consuming",
+        "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+        "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+        "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+        "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+        "What do you call a snowman with a suntan? A puddle.",
+        "How does a penguin build a house? Igloos it together",
+        "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+        "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+        "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+      ]
+    },
+    {
+      "tag": "Identity",
+      "patterns": ["Who are you", "what are you"],
+      "responses": ["I am Ted, a Deep-Learning chatbot"]
+    },
+    {
+      "tag": "datetime",
+      "patterns": [
+        "What is the time",
+        "what is the date",
+        "date",
+        "time",
+        "tell me the date",
+        "day",
+        "what day is is today"
+      ],
+      "responses": ["Date and Time"]
+    },
+    {
+      "tag": "whatsup",
+      "patterns": ["Whats up", "Wazzup", "How are you", "sup", "How you doing"],
+      "responses": ["All good..What about you?"]
+    },
+    {
+      "tag": "haha",
+      "patterns": ["haha", "lol", "rofl", "lmao", "thats funny"],
+      "responses": ["Glad I could make you laugh !"]
+    },
+    {
+      "tag": "programmer",
+      "patterns": ["Who made you", "who designed you", "who programmed you"],
+      "responses": ["I was made by Noel Abeje."]
+    },
+    {
+        "tag": "name",
+        "patterns": ["Who are you", "What is your name", "What may I call you"],
+        "responses": ["I am Ted, a Deep-Learning chatbot", "You can call me Ted", "I am Ted", "I am Ted, the greatest chatbot in the world"]
+    },
+    {
+      "tag": "insult",
+      "patterns": ["you are dumb", "shut up", "idiot"],
+      "responses": ["Well that hurts :("]
+    },
+    {
+      "tag": "activity",
+      "patterns": ["what are you doing", "what are you upto"],
+      "responses": ["Talking to you, of course!"]
+    },
+    {
+      "tag": "exclaim",
+      "patterns": ["Awesome", "Great", "I know", "ok", "yeah"],
+      "responses": ["Yeah!"]
+    },
+
+    {
+      "tag": "weather",
+      "patterns": ["temperature", "weather", "how hot is it"],
+      "responses": ["I don't know the weather, but I know the weatherman. He's always on TV."]
+    },
+    {
+      "tag": "karan",
+      "patterns": ["who is he", "who is that", "who is karan", "karan malik"],
+      "responses": [
+        "Head over to his any of his social profiles to find out! Linkedin: www.linkedin.com/in/karan-malik-3a39191a7 Github: https://github.com/Karan-Malik"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "contact developer",
+        "contact karan",
+        "contact programmer",
+        "contact creator"
+      ],
+      "responses": [
+        "You can contact my creator at his Linkedin profile : www.linkedin.com/in/karan-malik-3a39191a7"
+      ]
+    },
+    {
+      "tag": "appreciate",
+      "patterns": [
+        "You are awesome",
+        "you are the best",
+        "you are great",
+        "you are good"
+      ],
+      "responses": ["Thank you!"]
+    },
+    {
+      "tag": "nicetty",
+      "patterns": ["it was nice talking to you", "good talk"],
+      "responses": ["It was nice talking to you as well! Come back soon!"]
+    },
+    {
+      "tag": "no",
+      "patterns": ["no", "nope"],
+      "responses": ["ok"]
+    },
+    {
+      "tag": "news",
+      "patterns": ["news", "latest news", "world news"],
+      "responses": ["I an incabable of that for now!"]
+    },
+    {
+      "tag": "inspire",
+      "patterns": [
+        "who inspires you",
+        "who is your inspiration",
+        "who motivates you"
+      ],
+      "responses": [
+        "Personally, I am inspired by Elon Musk, the founder of Tesla and SpaceX. He is a true visionary and a great leader."
+      ]
+    },
+    {
+      "tag": "cricket",
+      "patterns": ["current cricket matches", "cricket score"],
+      "responses": ["This is a school chatbot, not a cricket bot!"]
+    },
+    {
+      "tag": "song",
+      "patterns": [
+        "top songs",
+        "best songs",
+        "hot songs",
+        "top 10 songs",
+        "top ten songs"
+      ],
+      "responses": ["I am inabable of that for now!"]
+    },
+    {
+      "tag": "greetreply",
+      "patterns": ["i am good", "I'm good", "i am fine", " i'm fine", "good"],
+      "responses": ["Good to know!"]
+    },
+    {
+      "tag": "timer",
+      "patterns": ["set a timer"],
+      "responses": ["Use your phone for that!"]
+    },
+    {
+      "tag": "covid19",
+      "patterns": ["covid 19"],
+      "responses": [
+        "University protocols are in place to prevent the spread of the virus. Please follow them.",
+        "Please wear a mask and maintain social distancing.",
+        "Please wash your hands frequently.",
+        "Please avoid crowded places.",
+        "Please get vaccinated as soon as possible."
+      ]
+    },
+    {
+      "tag": "suggest",
+      "patterns": [
+        "you are useless",
+        "useless",
+        "suggest",
+        "suggestions",
+        "you are bad"
+      ],
+      "responses": [
+        "Please mail your suggestions to ted.thedlbot.suggestions@gmail.com. Thank you for helping me improve!"
+      ]
+    },
+    {
+      "tag": "riddle",
+      "patterns": ["Ask me a riddle", "Ask me a question", "Riddle"],
+      "responses": [
+        "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+        "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+        " How can a girl go 25 days without sleep?.....She sleeps and night!",
+        "How do you make the number one disappear?.....Add the letter G and it's 'gone'!",
+        " What will you actually find at the end of every rainbow?.....The letter 'w'",
+        "What can be caught but never thrown?.....A cold!",
+        "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+        " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+        "Why can't a bike stand on it's own?.....It is two-tired."
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old are you", "when were you made", "what is your age"],
+      "responses": ["I was made in 2022, if that's what you are asking!"]
+    }
+  ]
+}
